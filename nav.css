@@ -1,0 +1,12 @@
+nav > ul{
+    display:flex ;
+}
+nav li {
+  list-style: none;
+  margin: 8px;
+  padding: 4px;
+}
+nav li a {
+    text-decoration: none;
+    
+}
