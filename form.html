@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        main {
+            width:400px;
+            justify-content: center;
+            margin: 70px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            background-color: #f8f8f8;
+            font-family: Arial,sans-serif;
+        
+        }
+        h2{
+            text-align: center;
+            width: 100px;
+            font-weight: bold;
+
+        }
+        input, textarea, button {
+            width: 250px;
+            padding: 6px;
+            margin-top: 5px;
+            border: 1px solid #888;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        input[type="radio"]{
+            width: auto;
+            margin-left: 10px;
+        }
+        fieldset{
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid#aaa;
+            border-radius: 5px;
+        }
+        button{
+            margin-top: 15px;
+            width: 100%;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: #0056b3;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+      <ul>
+         <li><a href="table.html">table</a></li>
+         <li><a href="blog.html">blog</a></li>
+         <li><a href="team.html">team</a></li>
+        <li><a href="form.html">form</a></li>
+      </ul>
+      </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">Name </label>
+                <input type="text" name="name" id="name">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="emil" name="email" id="email" required><br><br>
+
+                <label for="password">Password</label>
+                <input type="Password" id="password" required><br><br>
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" id="birthday"><br><br>
+                <fieldset>
+                    <legend>
+                        choose one option
+                    </legend>
+
+                    <input type="radio" name="mobile" id="google">
+                    <label for="google">google</label>
+                    <input type="radio" name="mobile" id="apple">
+                    <label for="Apple">Apple</label>
+                    <input type="radio" name="mobile" id="Android">
+                    <label for="Android">Android</label>
+                </fieldset><br><br>
+                <fieldset>
+                    <legend>Give your comment</legend>
+                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                </fieldset>
+                <button type="submit">login</button>
+
+
+
+            </form>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
