@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex Box</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        .parent {
+           
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .child {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color:whitesmoke;
+            padding: 20px;
+            font-size: 18px;
+            margin: 10px 0;
+            width: 300px;
+            text-align: center;
+            transition: 0.3s;
+
+
+        }
+        .child:hover {
+            background-color: hotpink;
+            transform: translateX(-5px);
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+            transition: 0.3s;
+        }
+        .card:hover {
+            background-color: rgb(204, 212, 212);
+            transform: translate3d(5px);
+        }
+        h2 {
+            text-align: center;
+            font-size: 30px;
+
+        }
+        p {
+            font-size: 18px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="table.html">table</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="team.html">team</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="parent.html">parent</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ <h2>Items of Fruit</h2>
+    <section class="parent">
+        
+        <div class="child">child 1</div>
+        <div class="child">child 2</div>
+        <div class="child">child 3</div>
+        <div class="child">child 4</div>
+        <div class="child">child 5</div>
+        <div class="child">child 6</div>
+        <div class="child">child 7</div>
+        <div class="child">child 8 </div>
+        <div class="child">child 9</div>
+        <div class="child">child 10</div>
+        <div class="child">child 11</div>
+        <div class="child">child 12</div>
+        <div class="child">child 13</div>
+        <div class="child">child 14</div>
+        <div class="child">child 15</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus vel aliquam ex culpa odio ipsam iste, ipsum aperiam deserunt? Dignissimos veritatis veniam obcaecati dolore doloremque quis porro itaque eius?</p>
+
+    </section>
+    <h2>Items of Vegetables</h2>
+<section class="parent">
+    <div class="card">card-1</div>
+    <div class="card">card-2</div>
+    <div class="card">card-3</div>
+    <div class="card">card-4</div>
+    <div class="card">card-5</div>
+    <div class="card">card-6</div>
+    <div class="card">card-7</div>
+    <div class="card">card-8</div>
+    <div class="card">card-9</div>
+    <div class="card">card-10</div>
+    <div class="card">card-11</div>
+    <div class="card">card-12</div>
+    <div class="card">card-13</div>
+    <div class="card">card-14</div>
+    <div class="card">card-15</div>
+
+</section>
+
+</body>
+
+</html>
